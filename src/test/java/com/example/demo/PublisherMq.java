@@ -16,4 +16,5 @@ public class PublisherMq {
     rabbitTemplate.convertAndSend("message", message );
     return "send";
     }
+
 }
